@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOLA MAYO_25 03</title>
+        <link href="style2.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script>
+          function openNav() {
+          document.getElementById("mySidebar").style.width = "200px";
+          document.getElementById("main").style.marginLeft = "200px";
+        }
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+      </script>
+    </head>
+
+    <body>
+            <div href="#" class="img bg"></div>
+            <div id="mySidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+              <a href="https://lolamayo.github.io/WORKBOOKS/">Workbook 2A</a>
+              <a href="index2.html">Workbook 2B</a>
+              <a href="#">Workbook 2C</a>
+              <a href="#">Research Journal</a>
+              <a href="#">Show all 2B Content</a>
+            </div>
+            <div id="main">
+              <button class="openbtn" onclick="openNav()">☰</button> 
+            </div>
+
+            <div class="content">
+              <div id="title">
+                <h1>25/03: WOT IS GENERATIVE DESIGN?</h1>
+              </div>
+              <br>
+            <section class="row">
+              <div> 
+                <p>In class last week we thought about Instructional and Algorithmic art, including examples from the likes of Sol Ewitt and Yoko Ono. We thought about how we could produce a <strong>p5 'sketch'</strong> following their instructional poems. 
+                <br>
+                <br>
+                  <strong>JavaScript</strong> is a general-purpose programming language with a broad range of applications, while <strong>p5</strong> is a JavaScript library specialized for creative coding, graphics, and interactive projects, offering a simplified and user-friendly approach to web development.
+                <br>
+                <br>
+                  In-class we made a dice-rolling-shape-drawing game. The parameters were: two dice are rolled as many times you like, resulting in up to 10 shapes being drawn. See <i>Dice Game Instructions</i>. This excercise was fun and quick, and we were then instructed to translate the rules from class into p5, with the following tips:
+                 <i>Include a variable (declare at top with var diceRoll; and use later such as diceRoll=random(1, 6); to simulate a dice roll, &/or create an array(list) for your colours and shapes, and see how accurately you can translate the rules.</i>
+                <br>
+                <br>
+                  I really struggled with wrapping my head around how this would work. Would the user interact with the game, pressing the button to rolling the dice, and generate numbers to draw the shapes? Or, would they watch while this pre-programmed code rolled random numbers to produce shapes? This would be the difference of user-interaction.. I decided that the user would press a button, generating a number/6 and a number/12 (dice roll). After three rolls, the sketch would draw a shape; the colour, size, and position determined by the rolls. I still did not know how I would go about coding this, but I happy to have conceptualised it, and excited to learn more...
+                </p>
+              </div>
+            </section>
+            <section class="row">
+              <div>
+                <figure>
+                  <img src="./IMAGES2/dice-game-incructions.jpg" alt="" height="550" width="auto">
+                  <figcaption>Dice Game Instructions</figcaption>
+                </figure>
+              </div>
+              <div>
+                <figure>
+                  <img src="./IMAGES2/dice-game.jpg" alt="" width="auto" height="550">
+                  <figcaption>Dice Game being played</figcaption>
+                </figure>
+              </div>
+            </section>
+            </div>
+    </body>
