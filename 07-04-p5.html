@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>LOLA MAYO_25 03</title>
+        <title>LOLA MAYO_07 04 p5</title>
+        
         <link href="style2.css" rel="stylesheet" type="text/css">
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script language="jacascript" type="text/javascript" src="libraries/p5.min.js"></script>
+        <script language="jacascript" type="text/javascript" src="libraries/p5.sound.min.js"></script>
+        <script src="SKETCHES2/capturew5/capturew5.js"></script>
       <script>
           function openNav() {
           document.getElementById("mySidebar").style.width = "200px";
@@ -13,7 +20,25 @@
           document.getElementById("mySidebar").style.width = "0";
           document.getElementById("main").style.marginLeft= "0";
         }
+        function setup() {
+        var canvas = createCanvas(400, 400);
+        canvas.parent('canvas');
+        }
+        function draw() {
+        background(127);
+        }
       </script>
+        <style>
+            .text {
+                width: 90%;
+    
+            }
+
+        canvas {
+            position: absolute;
+            z-index: -10;
+        }
+        </style>
     </head>
 
     <body>
@@ -35,36 +60,18 @@
         
             <div class="content">
                 <div id="title">
-                    <h1>31/03: Exploring p5 Resources</h1>
+                    <h1></h1>
+                    <br><br>
                 </div>
-            <section class="row">
+            <section class="column">
                 <div class="text">
-                    <br>- File -> Examples -> choose example code snippets
-                    <br>- In working with images in p5, use alpha
-                    <br>- Community libraries on p5 website
-                    <br>- Sketch -> Import lib -> Manage libraries
+                   <p>Is that clearer?</p>
                 </div>
-            </section>
-            <section class="row">
+                <div id="canvas"></div>
                 <div>
-                    <figure>
-                        <img src="" alt="Photo-follows cursor + filters" width="600px" height="auto">
-                        <figcaption>Photo-follows cursor + filters</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="" width="600px" height="auto">
-                        <figcaption></figcaption>
-                    </figure>
-                </div>
-                <div>
-                    <figure>
-                        <img src="" alt="Live web-cam follows cursor" width="500px" height="auto">
-                        <figcaption>Live web-cam follows cursor</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="" alt="" width="500px" height="auto">
-                        <figcaption></figcaption>
-                    </figure>
+                    <a href="./07-04.html" class="button" title="Ok, let's go back">
+                    Yes
+                    </a>
                 </div>
             </section>
             </div>

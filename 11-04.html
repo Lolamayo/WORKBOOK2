@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOLA MAYO_11 04</title>
+        <link href="style2.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script>
+          function openNav() {
+          document.getElementById("mySidebar").style.width = "200px";
+          document.getElementById("main").style.marginLeft = "200px";
+        }
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+      </script>
+      <style>
+        .row {
+            display: flex;
+            flex-direction: row;
+            margin: 20px;
+            gap: 30px;
+            justify-content: space-evenly;
+            align-items:center;
+        }
+      </style>
+    </head>
+
+    <body>
+            <div href="#" class="img bg"></div>
+            <div id="mySidebar" class="sidebar">
+            <section class="column">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+              <a href="https://lolamayo.github.io/WORKBOOKS/">Workbook 2A</a>
+              <a href="#">Workbook 2B</a>
+              <a href="#">Workbook 2C</a>
+              <a href="#">Research Journal</a>
+              <a href="#">Show all 2B Content</a>
+            </div>
+            </section>
+            <div id="main">
+              <button class="openbtn" onclick="openNav()">☰</button> 
+            </div>
+
+            <div class="content">
+                <div id="title">
+                    <h1>11/04: Networked & Commodified Data, Hacktivism, 
+                        <br> Glitch, Open Source, and DIY</h1>
+                        <br><br>
+                </div>
+            <section class="row">
+                <section class="column">
+                    <section class="row">
+                        <div class="text">
+                            Today in class we talked about <strong>DATA</strong> and p5 <strong>ON-LOOPS.</strong> 
+                            <br>
+                            We created this pie chart to show our storage across OneDrive, iCloud, Google Drive, and harddrive, across our phone and laptop.
+                            <br>
+                            We mapped the data by creating an array (list) of the five types of data, and used them to create a LOOP function.
+                            <br><br><br>
+                        </div>
+                        <div>
+                            <figure>
+                                <img src="./IMAGES2/piechart-data.jpg" alt="" width="300" height="auto">
+                            </figure>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <figure>
+                            <img src="IMAGES2/11 04 code.PNG" alt="" width="600px" height="auto">
+                            <figcaption>Storage data piechart code</figcaption>
+                        </figure>
+                    </section>
+                </section>
+                <section class="column">
+                    <div>
+                        <iframe src="./SKETCHES2/storage_piechart/index.html" width="500px" height="500px" scrolling="no"></iframe>
+                        <iframe src="./SKETCHES2/storage_piechart/index.html" width="500px" height="500px" scrolling="no"></iframe>
+                    </div>
+                </section>
+            </section>
+            </div>
+    </body> 
+ 
