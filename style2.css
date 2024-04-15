@@ -32,6 +32,8 @@ body {
     text-align: left;
     transition: 0.3s;
     text-decoration: none;
+    justify-items: left;
+    align-items: left;
   }
   .sidebar a:hover {
     color: #444;

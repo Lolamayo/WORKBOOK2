@@ -1,0 +1,197 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: mediumblue;
+    text-align: center; 
+    background-color: honeydew;
+    background-size: 100% auto;
+}
+* {
+    cursor:url("IMAGES/Ava-cursor-2.png"), auto;
+    margin:0px;
+    padding:0px;
+    border:none;
+}
+.lola_WORKBOOK_heading {
+    text-align: center;
+    padding-top: 35px;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px; */
+  }
+  .sidebar a {
+    padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: 15px;
+    color: white;
+    display: block;
+    text-align: left;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .sidebar a:hover {
+    color: #444;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+    z-index: 1;
+    top: 25px;
+    right: 25px;
+  }
+  .openbtn:hover {
+    background-color: #444;
+  }
+.header {
+    position: sticky;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+table {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    color: midnightblue;
+    border-collapse: collapse;
+    width: 100%;
+    margin:auto;
+}
+td, th {
+    background-color:white;
+    width:14%;
+    border: 0.5px solid black;
+    text-align: left;
+    vertical-align: top;
+    padding: 0;
+}
+td {
+    height: 40px;
+    background-color: whitesmoke;
+}
+td:hover {
+    background-color: grey;
+    transition-duration: 0.3s;
+}
+th {
+    text-align: center;
+    font: bolder;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.cold-btn, .hot-btn, .rainbtn {
+    background-color: none;
+    border: none;
+    color: black;
+    padding: 5px 5px;
+    height: 40px;
+    /* width: 150px; */
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    width: 13.1vw;
+}
+.cold-btn:hover {
+    cursor: url("IMAGES/Ava-cursor-cold.png"), auto;
+}
+.hot-btn:hover {
+    cursor: url("IMAGES/Ava-cursor-hat.png"), auto;
+}
+.rainbtn:hover {
+    cursor: url("IMAGES/Ava-cursor-rain.png"), auto;
+}
+.cold-btn:hover {
+    background-image: url("IMAGES/cloudysky.jpg"), auto;
+}
+.content {
+    position: absolute;
+    z-index: 9999;
+    display: flex;
+    cursor: move;
+    border-radius: 25px;
+    display: none;
+    color: black;
+    font-weight: bold;
+    font-size: 8px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+#content-0203 {
+width: 60%;
+height: 320px;
+background-color: rgb(235, 212, 216);
+padding: 30px 0;
+text-align: center;
+margin-top: 10px;
+font-family: 'Courier New', Courier, monospace;
+}
+figcaption {
+    width: 200;
+    font-size: 4;
+}
+#content-0803 {
+width: 75%;
+height: 600px;
+background-color: rgb(235, 212, 216);
+padding: 30px 0;
+text-align: center;
+margin-top: 10px;
+font-family: 'Courier New', Courier, monospace; 
+}
+#content-1103 {
+    width: 350px;
+    height: 900px;
+    background-color: rgb(235, 212, 216);
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+#content-1303 {
+    width: 350px;
+    height: 350px;
+    padding: 30px 0;
+    text-align: center;
+    background-color: none;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+#content-1403 {
+width: 650px;
+height: 350px;
+background-color: rgb(235, 212, 216);
+padding: 30px 0;
+text-align: center;
+margin-top: 10px;
+font-family: 'Courier New', Courier, monospace; 
+}
