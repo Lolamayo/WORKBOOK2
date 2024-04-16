@@ -10,6 +10,7 @@ function setup() {
 
 function draw() {
 //background(255);
-image(capture, mouseX, mouseY, width/5, width/capture.width*capture.height/5);
+image(capture, mouseX, mouseY, width/10, width/capture.width*capture.height/10);
 filter(THRESHOLD);
+capture.hide();
 }
